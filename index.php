@@ -68,7 +68,7 @@
 					<?php echo $invoice->CustomerFirstName . " " . $invoice->CustomerLastName ?>
 				</td>
 				<td>
-					<a href="invoice-details.php">Detail</a>
+					<a href="invoice-details.php?inoice=">Detail</a>
 				</td>
 			</tr>
 		<?php endforeach ?>
